@@ -1,15 +1,15 @@
 spring: 
-	profiles: 
-		active: dev
+    profiles: 
+        active: dev
 ---
 spring: 
-	profiles: dev	# 开发环境
-	application: 
-		name: microservicecloud-config-zhaoyang-dev
+    profiles: dev	# 开发环境
+    application: 
+	name: microservicecloud-config-zhaoyang-dev
 ---
 spring: 
-	profiles: test	# 测试环境
-	application: 
-		name: microservicecloud-config-zhaoyang-test
+    profiles: test	# 测试环境
+    application: 
+	name: microservicecloud-config-zhaoyang-test
 
 # 保存为UTF-8编码格式
